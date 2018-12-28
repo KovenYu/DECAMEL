@@ -3,7 +3,7 @@ This repo contains the demo code for an unsupervised deep RE-ID model DECAMEL
 Our implementation was done using [matconvnet](https://github.com/vlfeat/matconvnet).
 We provide an instruction for using our code, but do not encourage you to modify the source
 because the structure of code dependence could be quite complex.
-We recommand to use the Market-1501 dataset for our demo.
+We recommand to use the [Market-1501 dataset](www.liangzheng.org/Project/project_reid.html) dataset for our demo.
 
 Hong-Xing Yu, Ancong Wu, Wei-Shi Zheng, 
 "Unsupervised Person Re-identification by Deep Asymmetric Metric Embedding",
@@ -47,6 +47,7 @@ If you use a single GPU, the default batch size (216) requires 11GB memory.
         - labels (1xN single)
         - set (1xN uint8, in which 1=train, 3=gallery/test, 4=probe/query)
         - idxViews (1xN single. Index starts from 1.)
+
 Please check our template /src/makeImdb_toy_market.m which forms a toy dataset toy_market.mat,
 and you might want to modify it to suit your need.
 
