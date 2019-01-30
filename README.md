@@ -29,6 +29,7 @@ In other words, you will have a folder structure like:
         - bounding_box_test
         - bounding_box_train
         - query
+        
 And then run /src/makeImdb.m
 
 2. Enter /src, and run
