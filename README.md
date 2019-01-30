@@ -1,5 +1,5 @@
 This repo contains the demo code for an unsupervised deep RE-ID model DECAMEL
-(DEep Clustering-based Asymmetric MEtric Learning).
+(DEep Clustering-based Asymmetric MEtric Learning) which is going to appear at an future issue in 2019 in TPAMI ([preview](https://kovenyu.com/papers/DECAMEL_arxiv.pdf)).
 Our implementation was done using [matconvnet](https://github.com/vlfeat/matconvnet).
 We provide an instruction for using our code, but do not encourage you to modify the source
 because the structure of code dependence could be quite complex.
@@ -7,7 +7,8 @@ We recommand to use the [Market-1501 dataset](www.liangzheng.org/Project/project
 
 Hong-Xing Yu, Ancong Wu, Wei-Shi Zheng, 
 "Unsupervised Person Re-identification by Deep Asymmetric Metric Embedding",
-IEEE Transactions on Pattern Analysis and Machine Intelligence. (DOI 10.1109/TPAMI.2018.2886878)
+IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019 
+(DOI 10.1109/TPAMI.2018.2886878)
 
 ## Results on large popular datasets
 
@@ -72,4 +73,4 @@ year={2019}
 }
 ```
 
-If you have any questiones please feel free to contact me at xKoven@gmail.com
+If you have any questiones please feel free to contact me at xKoven@gmail.com or open an issue.
