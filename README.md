@@ -67,6 +67,7 @@ If you find our work helpful in your research, please kindly cite our paper:
 title={Unsupervised Person Re-identification by Deep Asymmetric Metric Embedding},
 author={Yu, Hong-Xing and Wu, Ancong and Zheng, Wei-Shi},
 journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (DOI 10.1109/TPAMI.2018.2886878)},
+year={2019}
 }
 ```
 
