@@ -31,7 +31,7 @@ In other words, you will have a folder structure like:
         - bounding_box_train
         - query
         
-And then run /src/makeImdb.m
+And then run [/src/makeImdb.m](/src/makeImdb.m)
 
 2. Enter /src, and run
 ```
@@ -42,7 +42,7 @@ Note that the index starts from 1 instead of 0.
 If you use a single GPU, the default batch size (216) requires 11GB memory.
 
 #### For different datasets
-1. Prepare your data in the format like /data/market.mat:
+1. Prepare your data in the format like */data/market.mat*:
 - market.mat
     - images (1x1 struct)
         - data (HxWxCxN single, where H=144, W=56, C=3, N=dataset size)
@@ -50,15 +50,15 @@ If you use a single GPU, the default batch size (216) requires 11GB memory.
         - set (1xN uint8, in which 1=train, 3=gallery/test, 4=probe/query)
         - idxViews (1xN single. Index starts from 1.)
 
-Please check our template /src/makeImdb_toy_market.m which forms a toy dataset toy_market.mat,
+Please check our template [/src/makeImdb_toy_market.m](/src/makeImdb_toy_market.m) which forms a toy dataset *toy_market.mat*,
 and you might want to modify it to suit your need.
 
 2. Enter /src, and run
 ```
 main('gpus', YOUR_GPU, 'data_path', DATAPATH)
 ```
-where YOUR_GPU is an array of int, e.g. [1], [1,2],
-DATAPATH is the file name of the dataset .mat file in the last step.
+where *YOUR_GPU* is an array of int, e.g. [1], [1,2],
+*DATAPATH* is the file name of the dataset .mat file in the last step.
 Note that the index starts from 1 instead of 0.
 If you use a single GPU, the default batch size (216) requires 11GB memory.
 
