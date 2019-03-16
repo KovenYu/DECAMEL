@@ -3,7 +3,7 @@ This repo contains the demo code for an unsupervised deep RE-ID model DECAMEL
 Our implementation was done using [matconvnet](https://github.com/vlfeat/matconvnet).
 We provide an instruction for using our code, but do **NOT** encourage you to modify the source
 because the structure of code dependence could be quite complex.
-We recommand to use the [Market-1501 dataset](www.liangzheng.org/Project/project_reid.html) dataset for our demo.
+We recommand to use the [Market-1501 dataset](http://www.liangzheng.org/Project/project_reid.html) dataset for our demo.
 
 Hong-Xing Yu, Ancong Wu, Wei-Shi Zheng, 
 "Unsupervised Person Re-identification by Deep Asymmetric Metric Embedding",
@@ -22,7 +22,7 @@ Note that the results could be a little bit different in your run due to random 
 ## Usage
 
 #### Reproducing the reported results
-1. Download the [Market-1501 dataset](www.liangzheng.org/Project/project_reid.html)
+1. Download the [Market-1501 dataset](http://www.liangzheng.org/Project/project_reid.html)
 and put the unzipped folders into /data/market.
 In other words, you will have a folder structure like:
 - data
