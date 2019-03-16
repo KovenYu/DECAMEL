@@ -1,7 +1,7 @@
 This repo contains the demo code for an unsupervised deep RE-ID model DECAMEL
 (DEep Clustering-based Asymmetric MEtric Learning) which is going to appear at an future issue in 2019 in TPAMI ([preview](https://kovenyu.com/papers/DECAMEL_arxiv.pdf)).
 Our implementation was done using [matconvnet](https://github.com/vlfeat/matconvnet).
-We provide an instruction for using our code, but do not encourage you to modify the source
+We provide an instruction for using our code, but do **NOT** encourage you to modify the source
 because the structure of code dependence could be quite complex.
 We recommand to use the [Market-1501 dataset](www.liangzheng.org/Project/project_reid.html) dataset for our demo.
 
